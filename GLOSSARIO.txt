@@ -1,0 +1,64 @@
+********* COMANDOS PROMPT *********
+
+node --version = retorna qual é a versao do node que esta instalada no sistema 
+
+npm --version = retorna qual e a versao do npm(gerenciador de pacotes) que esta instalado do sistema
+
+npm install --global yarn = este comando instala o yarn(gerenciador de pacotes/dependencias) no sistema atraves do npm
+
+yarn --version = retorna a versao do yarn(gerenciador de pacotes/dependencias) que esta instalado no sistema
+
+*****************************************************************************************************************
+
+**** VARIAVEIS E TIPOS DE DADOS *****
+
+var nome_var = forma de declaracao de variavel com escopo mais abrangente
+
+let nome_var = forma de declaracao de variavel com escopo local, ou seja, escopo de bloco
+
+let nome_var = 'string'/"string" -> atribui a variavel um dado do tipo string
+
+let nome_var = 100 -> atribui a variavel um dado do tipo instala
+
+let nome_var = 15.5 -> atribui a variavel um dado do tipo float
+
+let nome_var = true/false -> atribui a variavel um dado do tipo boolean 
+
+let nome_var = ['dado','dado','dado','dado','dado'] -> atribui a variavel um dado do tipo array/vetor
+
+let nome_var = {dado = 'tipoDado', dado = 15} -> atribui a variavel um dado do tipo objeto 
+
+******************************************************************************************************************
+
+****** ESTRUTURAS CONDICIONAIS *******
+
+** estrutura condicional IF/ELSE IF/ELSE para verificar se a expressao e verdeira ou false, caso seja verdadeira o primeiro bloco e chamado
+caso seja falsa a expressao o segundo o bloco de baixo e executado
+
+if (expressao){        
+    codigo
+}else if(expressao){
+    if(expressao){
+        codigo
+    }else{
+        codigo
+    }
+}else{
+    codigo
+}
+
+** estrutura condicional SWITCH(opcao) / CASE : verifica se a op foi a escolhida e determina qual bloco sera executado com base nessa analise
+
+switch(opcao){
+    case 1:
+        codigo
+        break
+    case 2:
+        codigobreak
+    default:
+        codigo
+}
+
+*******************************************************************************************************************
+
+B
