@@ -61,4 +61,39 @@ switch(opcao){
 
 *******************************************************************************************************************
 
-B
+******** ESTRUTURAS DE REPETIÇÃO - LOOP *******
+
+***** ESTRUTURA FOR ******
+
+for(var i = 0; i <= 10; i++){
+    codigo
+}
+
+
+***** ESTRUTURA WHILE *****
+
+let i = 0 
+while(i <= 10){
+    codigo
+    i++
+}
+
+***** ESTRUTURA DO/WHILE ******
+
+let i = 0
+do{
+    codigo
+    i++
+}while(i <= 10)
+
+
+*******************************************************************************************************************
+***** OPERADORES MATEMATICOS *****
+
++,  -,  *,   /,  %,  +=,  -=,  var++,  var--,  ++var,  --var
+
+***** TRATAMENTO DE STRINGS ******
+
+
+
+***** TRATAMENTO DE DATAS ******
