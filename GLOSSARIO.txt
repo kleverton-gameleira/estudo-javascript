@@ -92,6 +92,14 @@ do{
 
 +,  -,  *,   /,  %,  +=,  -=,  var++,  var--,  ++var,  --var
 
+
+***** OPERADORES LOGICOS *****
+
+and/ && = verifica se as duas expressoes do lado direito e do lado esquerdo sao verdadeiros para que o resultado da operacao seja verdadeira
+
+or/|| =  verifica se alguma das expressoes é verdadeiro qual quer um dos lados esquerdo ou direito, se um deles for verdadeiro a operacao retorna verdadeiro
+
+not/! =  
 ***** TRATAMENTO DE STRINGS ******
 
 
