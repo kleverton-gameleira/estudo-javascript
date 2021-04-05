@@ -100,6 +100,27 @@ and/ && = verifica se as duas expressoes do lado direito e do lado esquerdo sao 
 or/|| =  verifica se alguma das expressoes é verdadeiro qual quer um dos lados esquerdo ou direito, se um deles for verdadeiro a operacao retorna verdadeiro
 
 not/! =  
+
+***** OPERADORES RELACIONAIS *****
+
+==  -> operador de igualdade
+
+!=  -> operador de diferença 
+
+>  -> operador de maior que 
+
+<  -> operador de menor que
+
+>=  -> operador de maior igual a 
+
+<=  -> operador de menor igual a 
+
+===  -> operador de igual total,ou seja, se tanto o valor quanto o tipo sao iguais
+
+
+
+*********************************************************************************************
+ 
 ***** TRATAMENTO DE STRINGS ******
 
 

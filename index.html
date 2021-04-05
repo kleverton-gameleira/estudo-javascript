@@ -7,16 +7,17 @@
     <title>Curso de javascript - Geek University</title>
 </head>
 <body>
-    <h1>Verifique o seu time !!!</h1>
-    <input type="text" placeholder="informe o seu nome"></br>
-    <input type="number" placeholder="informe a sua idade"></br>
-    <select id="est-civil">
-        <option selected>Sexo</option>
-        <option value="m">masculino</option>
-        <option value="f">feminino</option>
-    </select></br>
-    <button onclick="teste()">Verificar</button>
-    <div id="res"></div>
-    <script src="teste.js"></script>
+    <input type="number" id="n1" placeholder="1º numero">&nbsp;
+    <input type="number" id="n2" placeholder="2º numero"></br>
+    <select id="op">
+        <option selected>Operação</option>
+        <option value="soma">Soma</option>
+        <option value='sub'>Subtração</option>
+        <option value="mult">Multiplicação</option>
+        <option value="div">Divisão</option>
+    </select>
+    <button onclick="operacao()">Botao de Teste</button>
+    <p id="res"></p>
+    <script src="operacoes.js"></script>
 </body>
 </html>
