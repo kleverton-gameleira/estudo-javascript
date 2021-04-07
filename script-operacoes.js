@@ -17,7 +17,7 @@ function multi(n1,n2){
 }
 function div(n1, n2){
     let div = n1 / n2
-    return `${n1} dividido por ${n2} é igual a ${div}`
+    return `${n1} dividido por ${n2} é igual a ${parseInt(div.toFixed(2))}`
 }
 
 function teste(){
