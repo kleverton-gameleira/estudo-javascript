@@ -120,6 +120,16 @@ not/! =
 
 
 *********************************************************************************************
+
+**** FUNCOES DE TIME ****
+
+setInterval(funcao,1000) = a funcao setInterval defini um intervalo de tempo em que a funcao passada como parametro
+                           na funcao sera chamada seguidas vezes
+
+setTimeout(funcao,1000) = a funcao setTimeout chama a funcao passada como parametro com um delay de tempo com base no
+                          passado no segundo parametro
+
+*********************************************************************************************
  
 ***** TRATAMENTO DE STRINGS ******
 
