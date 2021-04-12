@@ -136,3 +136,23 @@ setTimeout(funcao,1000) = a funcao setTimeout chama a funcao passada como parame
 
 
 ***** TRATAMENTO DE DATAS ******
+
+
+
+***** TRABALHANDO COM ARRAYS ******
+
+let nome_array = new Array('dado','dado','dado','dado','dado','dado') = forma de instaciação do objeto array com os DADOS
+
+let nome_array = ['dado','dado','dado','dado','dado'] = forma mais utilizada de criar um array 
+
+nome_array[0] = 'novo_dado'  -> substitui o dado que esta na posicao do array pelo novo_dado 
+
+nome_array.push('dado') = a funcao PUSH adiciona o dado passado como parametro na ultima posicao disponivel so Array
+
+nome_array.length = o metodo LENGTH retorna a quantidade atual de elementos que o array possui
+
+nome_array.sort() = o metodo SORT ordena o array em ordem alfabetica . OBS se for necessario ordenar um array com tipo numerico é necessario uma 
+                    funcao anonima dentro do sort: sort(function(a,b){return a- b})
+
+delete nome_array[0] = a funcao delete retira o valor que esta na posicao do array passada como parametro, deixando esta posicao vazia dentro do array
+
