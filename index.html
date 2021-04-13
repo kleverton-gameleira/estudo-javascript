@@ -7,17 +7,35 @@
     <title>Curso de javascript - Geek University</title>
 </head>
 <body>
-    <input type="number" id="n1" placeholder="1º numero">&nbsp;
-    <input type="number" id="n2" placeholder="2º numero"></br>
-    <select id="op">
-        <option selected>Operação</option>
-        <option value="soma">Soma</option>
-        <option value='sub'>Subtração</option>
-        <option value="mult">Multiplicação</option>
-        <option value="div">Divisão</option>
-    </select>
-    <button onclick="operacao()">Botao de Teste</button>
-    <p id="res"></p>
-    <script src="operacoes.js"></script>
+    <div id="ex001">
+        <h1>Exercicio 01</h1>
+        <input type="text" id="nome" placeholder="Nome"></br>
+        <input type="email" id="email" placeholder="Email"></br>
+        <input type="tel" id="telefone" placeholder="+55 11 99999999"></br>
+        <input type="text" id="rua" placeholder="Rua"></br>
+        <input type="text" id="numero" placeholder="numero"></br>
+        <input type="text" id="bairro" placeholder="Bairro"></br>
+        <input type="text" id="cidade" placeholder="cidade"></br>
+        <input type="text" id="uf" placeholder="UF" maxlength="2"></br></br>
+        <button onclick="teste()">Botao Ex001</button>
+        <p id="res"></p>
+    </div>
+    <div id="ex002">
+        <h1>Exercicio 02</h1>
+        <input type="number" id="inicio" placeholder="Valor inicial">&nbsp;
+        <input type="number" id="final" placeholder="Valor Final"></br></br>
+        <button onclick="mostrar()">Botao Ex002</button>
+        <p id="res2"></p>
+    </div>
+    <div id="ex003">
+        <h1>Exercicio 03</h1>
+        <label for="exp">Qual a seu experiencia profisional</label>
+        <input type="number" id="exp"></br></br>
+        <button onclick="exibir()">Botao Ex003</button>
+        <p id="res3"></p>
+    </div>
+    <script src="ex001.js"></script>
+    <script src="ex002.js"></script>
+    <script src="ex003.js"></script>
 </body>
 </html>
