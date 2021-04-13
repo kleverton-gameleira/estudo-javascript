@@ -126,3 +126,13 @@ not/! =
 
 
 ***** TRATAMENTO DE DATAS ******
+
+***** TRABALHANDO COM ARRAYS ******
+
+forEach(valor,posicao)
+
+nome_array.forEach(nome_funcao) = a funcao forEach significa para cada, ou seja, o procedimento definido na funcao passada como parametro sera realizado em cada elemento do array ao qual ela esta associada
+
+nome_array.forEach(function(valor,indice){
+    codigo                                  = forma de definir uma funcao anonima dentro da funcao forEach
+})
