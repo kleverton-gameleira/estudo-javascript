@@ -1,18 +1,17 @@
-let numeros = [1,6,5,3,2,9,7,8,10,4,68,55,44,23,22]
-numeros.push()
-let par = []
-let impar = []
-function par_impar(nums){
-    for(let i = 0; i <= nums.length;i++){
-        if(nums[i] % 2 == 0){
-            par.push(nums[i])
-        }else{
-            impar.push(nums[i])
-        }
-    }
-    console.log(`Vetor de elementos pares: ${par.sort(function(a,b){return a - b})}`)
-    console.log(`Vetor de elementos ${impar.sort(function(a,b){return a - b})}`)
-    
-}
+let pessoas = [
+    {nome: 'kleverton', sobrenome: 'gameleira'},
+    {nome: 'tayane', sobrenome: 'gameleira'},
+    {nome: 'kelly', sobrenome: 'serejo'},
+    {nome: 'derek', sobrenome: 'gameleira'},
+    {nome: 'adrian', sobrenome: 'santos'},
+    {nome: 'pedro', sobrenome: 'gameleira'},
+    {nome: 'karla', sobrenome: 'gameleira'},
+    {nome: 'felipe ', sobrenome: 'serejo'},
+    {nome: 'junior', sobrenome: 'santos'},
+    {nome: 'richard', sobrenome: 'braga'}
+]
+let resultado = pessoas.filter(function(p){
+    return p.sobrenome == 'santos'
+})
 
-par_impar(numeros)
+console.log(resultado)

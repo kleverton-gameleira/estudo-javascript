@@ -166,6 +166,7 @@ nome_array.splice(1,0,'dados adicionado') = a funcao splice tambem pode ser usad
 
 nome_array.splice(2,1,'dado_novo') = a funcao splice tbm pode ser utilizada para substituir dados em uma determinada posicao de um array
                                      de acordo com os valores passados como parametro
+
 *******************************************************************************************************************
 
 nome_array.pop() = a funcao pop remove o ultimo elemento da ultima posicao do array:. OBS: quando o pop() é usado adicionando o elemento a uma 
@@ -181,5 +182,13 @@ nome_array.slice(inicio(incluso),final) =  a funcao slice() faz um recorte do ar
 
 nome_array.concat(novo_array) = a funcao concat junta o array passado como parametro com o array que voce esta trabalhando
 
+******* TRABALHANDO COM ARRAY ********
 
+nome_array.forEach(nome_funcao) = a funcao forEach executa a funcao passada como parametro para cada elemento do array ao qual o ele foi associadao
 
+nome_array.map(function(){
+    return codigo               = a funcao map retorna um novo array contendo o resultado da operacao definida como parametro para cada elemento 
+                                  do array associado a ele
+})
+
+nome_array.filter(funcao) = a funcao filter retorna um array com os dados que correspondem aos criterios de filtro
