@@ -136,3 +136,59 @@ setTimeout(funcao,1000) = a funcao setTimeout chama a funcao passada como parame
 
 
 ***** TRATAMENTO DE DATAS ******
+
+
+
+***** TRABALHANDO COM ARRAYS ******
+
+let nome_array = new Array('dado','dado','dado','dado','dado','dado') = forma de instaciação do objeto array com os DADOS
+
+let nome_array = ['dado','dado','dado','dado','dado'] = forma mais utilizada de criar um array 
+
+nome_array[0] = 'novo_dado'  -> substitui o dado que esta na posicao do array pelo novo_dado 
+
+nome_array.push('dado') = a funcao PUSH adiciona o dado passado como parametro na ultima posicao disponivel so Array
+
+nome_array.length = o metodo LENGTH retorna a quantidade atual de elementos que o array possui
+
+nome_array.sort() = o metodo SORT ordena o array em ordem alfabetica . OBS se for necessario ordenar um array com tipo numerico é necessario uma 
+                    funcao anonima dentro do sort: sort(function(a,b){return a- b})
+
+delete nome_array[0] = a funcao delete retira o valor que esta na posicao do array passada como parametro, deixando esta posicao vazia dentro do array
+
+
+**** TRABALHANDO COM A FUNCAO SPLICE ****
+
+nome_array.splice(3,1) = a funcao splice retira posicoes do array de acordo com os dados passados como parametro
+
+nome_array.splice(1,0,'dados adicionado') = a funcao splice tambem pode ser usada para inserir um elemento/dado em uma determinada do array
+                                            de acordo com os parametros passados
+
+nome_array.splice(2,1,'dado_novo') = a funcao splice tbm pode ser utilizada para substituir dados em uma determinada posicao de um array
+                                     de acordo com os valores passados como parametro
+
+*******************************************************************************************************************
+
+nome_array.pop() = a funcao pop remove o ultimo elemento da ultima posicao do array:. OBS: quando o pop() é usado adicionando o elemento a uma 
+                   outra variavel ele retira o elemento do array e adiciona-o a variavel
+
+nome_array.shift() = a funcao shift remove o primeiro elemento do array:. OBS:. assim como no pop() o shift() se usado com uma variavel ela retira
+                     o elemento do array e adiciona o elemento na variavel 
+
+
+nome_array.unshift('dado') = a funcao unshift() adiciona um elemento na primeira posicao do Array
+
+nome_array.slice(inicio(incluso),final) =  a funcao slice() faz um recorte do array com base nos parametros de inicio e final passados 
+
+nome_array.concat(novo_array) = a funcao concat junta o array passado como parametro com o array que voce esta trabalhando
+
+******* TRABALHANDO COM ARRAY ********
+
+nome_array.forEach(nome_funcao) = a funcao forEach executa a funcao passada como parametro para cada elemento do array ao qual o ele foi associadao
+
+nome_array.map(function(){
+    return codigo               = a funcao map retorna um novo array contendo o resultado da operacao definida como parametro para cada elemento 
+                                  do array associado a ele
+})
+
+nome_array.filter(funcao) = a funcao filter retorna um array com os dados que correspondem aos criterios de filtro
