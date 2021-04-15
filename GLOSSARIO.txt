@@ -193,4 +193,4 @@ nome_array.map(function(){
 
 nome_array.filter(funcao) = a funcao filter retorna um array com os dados que correspondem aos criterios de filtro
 
-nome_array.reduce(funcao) =  O reduce processa todo o array e ao final desse processamento retorna um unico valor 
+nome_array.reduce(ant,prox) =  O reduce processa todo o array e ao final desse processamento retorna um unico valor 
